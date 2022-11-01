@@ -15,8 +15,6 @@ ActiveRecord::Schema.define(version: 2022_10_31_100246) do
   create_table "pizzas", force: :cascade do |t|
     t.string "name"
     t.string "ingredients"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "restaurant_pizzas", force: :cascade do |t|
